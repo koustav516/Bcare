@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Mr. A Sharma",
+    "designation": "Lecturer",
+    "experience": "12 Years",
+    "qualification": "M.Tech (Computer Science)"
+  },
+  {
+    "name": "Ms. N Roy",
+    "designation": "Assistant Professor",
+    "experience": "9 Years",
+    "qualification": "B.E (CSE)"
+  },
+  
+  {
+    "name": "Mr. R. Kumar",
+    "designation": "Senior Lecturer",
+    "experience": "12 years",
+    "qualification": "M.E. in Mechanical"
+  },
+  {
+    "name": "Mr. A. Bose",
+    "designation": "Lecturer",
+    "experience": "5 years",
+    "qualification": "B.E. in Mechanical"
+  }
+]
+
+

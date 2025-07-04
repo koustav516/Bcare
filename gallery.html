@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="gallery.js" defer></script>
+</head>
+
+<body>
+  <!-- Common Header -->
+  <div class="page-wrapper">
+    <div include-html="./partials/header.html"></div>
+
+    <section id="gallery">
+      <div class="section-content">
+        <h2 id="gallery-title">Gallery</h2>
+        <div class="gallery-grid" id="dynamic-gallery">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Common Footer -->
+  <div include-html="./partials/footer.html"></div>
+  <script src="./script.js"></script>
+</body>
+</html>
