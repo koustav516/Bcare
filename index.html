@@ -1,312 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BCARE Institute Of Management & Technology</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BCARE Institute Of Management & Technology</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-</head>
+    <body>
+        <!-- Header -->
+        <div class="page-wrapper">
+            <!-- Navigation -->
+            <div include-html="./partials/header.html"></div>
 
-<body>
+            <!-- Banner Carousel -->
+            <section class="carousel-section">
+                <div class="carousel-container">
+                    <img
+                        src="./public/campus/campus2.jpg"
+                        class="carousel-image active"
+                        alt="College Image 1"
+                    />
+                    <img
+                        src="./public/campus/campus1.jpg"
+                        class="carousel-image"
+                        alt="College Image 2"
+                    />
+                    <img
+                        src="./public/campus/campus3.jpg"
+                        class="carousel-image"
+                        alt="College Image 3"
+                    />
+                    <img
+                        src="./public/campus/campus4.jpg"
+                        class="carousel-image"
+                        alt="College Image 4"
+                    />
+                    <img
+                        src="./public/event/event5.jpg"
+                        class="carousel-image"
+                        alt="College Image 5"
+                    />
+                    <img
+                        src="./public/campus/campus5.jpg"
+                        class="carousel-image"
+                        alt="College Image 6"
+                    />
+                </div>
+            </section>
 
-  <!-- Header -->
-  <div class="page-wrapper">
-    <!-- Navigation -->
-    <div include-html="./partials/header.html"></div>
+            <!-- About Section -->
+            <section id="about">
+                <div class="section-content">
+                    <h2>About Us</h2>
+                    <p>
+                        Established in 2005, our college is committed to
+                        excellence in technical education. Our mission is to
+                        nurture innovation, integrity, and lifelong learning.
+                        Principal's Message: “We believe in shaping futures with
+                        commitment and care.”
+                    </p>
+                </div>
+            </section>
 
-    <!-- Banner Carousel -->
-    <section class="carousel-section">
-      <div class="carousel-container">
-        <img src="./public/campus/campus2.jpg" class="carousel-image active" alt="College Image 1">
-        <img src="./public/campus/campus1.jpg" class="carousel-image" alt="College Image 2">
-        <img src="./public/campus/campus3.jpg" class="carousel-image" alt="College Image 3">
-        <img src="./public/campus/campus4.jpg" class="carousel-image" alt="College Image 4">
-        <img src="./public/event/event5.jpg" class="carousel-image" alt="College Image 5">
-        <img src="./public/campus/campus5.jpg" class="carousel-image" alt="College Image 6">
-      </div>
-    </section>
+            <section id="stats">
+                <div class="section-content">
+                    <h2>Our Impact</h2>
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <h3>
+                                <span class="counter" data-target="1200"
+                                    >700</span
+                                >+
+                            </h3>
+                            <p>Students Enrolled</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>
+                                <span class="counter" data-target="75">28</span>
+                            </h3>
+                            <p>Faculty Members</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>
+                                <span class="counter" data-target="250"
+                                    >500</span
+                                >+
+                            </h3>
+                            <p>Campus Placements</p>
+                        </div>
+                        <div class="stat-box">
+                            <h3>
+                                <span class="counter" data-target="6">4</span>
+                            </h3>
+                            <p>Departments</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- About Section -->
-    <section id="about">
-      <div class="section-content">
-        <h2>About Us</h2>
-        <p>Established in 2005, our college is committed to excellence in technical education. Our mission is to nurture
-          innovation, integrity, and lifelong learning. Principal's Message: “We believe in shaping futures with
-          commitment and care.”</p>
-      </div>
-    </section>
+            <!-- Courses Section -->
+            <section id="courses">
+                <div class="section-content">
+                    <h2>Our Courses</h2>
+                    <p class="subtitle">
+                        Building a better world, one course at a time
+                    </p>
+                    <div class="course-grid new-style">
+                        <div class="course-card modern">
+                            <div class="img-wrap">
+                                <img
+                                    src="./public/courses/Civil.jpg"
+                                    alt="Civil Engineering"
+                                />
+                                <span class="course-label"
+                                    >Civil Engineering</span
+                                >
+                            </div>
+                            <div class="course-info">
+                                <p>
+                                    <span class="icon">⏱</span> Duration: 3
+                                    Years
+                                </p>
+                                <p class="desc">
+                                    Design, construct, and maintain the physical
+                                    and natural environment.
+                                </p>
+                                <p class="intake">Intake: 60</p>
+                            </div>
+                        </div>
 
-    <section id="stats">
-      <div class="section-content">
-        <h2>Our Impact</h2>
-        <div class="stats-grid">
-          <div class="stat-box">
-            <h3><span class="counter" data-target="1200">700</span>+</h3>
-            <p>Students Enrolled</p>
-          </div>
-          <div class="stat-box">
-            <h3><span class="counter" data-target="75">25</span>+</h3>
-            <p>Faculty Members</p>
-          </div>
-          <div class="stat-box">
-            <h3><span class="counter" data-target="250">500</span>+</h3>
-            <p>Campus Placements</p>
-          </div>
-          <div class="stat-box">
-            <h3><span class="counter" data-target="6">4</span></h3>
-            <p>Departments</p>
-          </div>
+                        <div class="course-card modern">
+                            <div class="img-wrap">
+                                <img
+                                    src="./public/courses/Mechanical.jpg"
+                                    alt="Mechanical Engineering"
+                                />
+                                <span class="course-label"
+                                    >Mechanical Engineering</span
+                                >
+                            </div>
+                            <div class="course-info">
+                                <p>
+                                    <span class="icon">⏱</span> Duration: 3
+                                    Years
+                                </p>
+                                <p class="desc">
+                                    Explore design, analysis, and manufacturing
+                                    technologies.
+                                </p>
+                                <p class="intake">Intake: 60</p>
+                            </div>
+                        </div>
+
+                        <div class="course-card modern">
+                            <div class="img-wrap">
+                                <img
+                                    src="./public/courses/Electrical.jpg"
+                                    alt="Electrical Engineering"
+                                />
+                                <span class="course-label"
+                                    >Electrical Engineering</span
+                                >
+                            </div>
+                            <div class="course-info">
+                                <p>
+                                    <span class="icon">⏱</span> Duration: 3
+                                    Years
+                                </p>
+                                <p class="desc">
+                                    Explore design, analysis, and manufacturing
+                                    technologies.
+                                </p>
+                                <p class="intake">Intake: 60</p>
+                            </div>
+                        </div>
+
+                        <div class="course-card modern">
+                            <div class="img-wrap">
+                                <img
+                                    src="./public/courses/Electronics.jpg"
+                                    alt="Electronics and Telecommunication Engineering"
+                                />
+                                <span class="course-label"
+                                    >Electronics and Telecommunication
+                                    Engineering</span
+                                >
+                            </div>
+                            <div class="course-info">
+                                <p>
+                                    <span class="icon">⏱</span> Duration: 3
+                                    Years
+                                </p>
+                                <p class="desc">
+                                    Build software systems and smart solutions
+                                    for the future.
+                                </p>
+                                <p class="intake">Intake: 30</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Admissions Section -->
+            <section id="admissions">
+                <div class="section-content">
+                    <h2>Admissions</h2>
+
+                    <p>
+                        Below are the eligibility criteria for admission into
+                        our diploma programs:
+                    </p>
+
+                    <ul class="eligibility-list">
+                        <li>
+                            Passed 10th Standard (Madhyamik or equivalent) exam
+                            for Admission in 1st year.
+                        </li>
+                        <li>Passed HS Science for Admission in 2nd year</li>
+                        <li>Passed ITI for Admission in 2nd year</li>
+                        <li>
+                            <strong>Entrance Exam:</strong> Candidates must
+                            qualify the Vocational exam with 60% Marks for
+                            Admission in 2nd year.
+                        </li>
+                    </ul>
+
+                    <div class="fee-note">
+                        🏷️ <strong>Fees:</strong> As per Council norms.
+                    </div>
+                    <a href="/public/Admission Form.pdf" class="btn" download
+                        >📥 Download Admission Form</a
+                    >
+                    <a href="/public/brochure.pdf" class="btn" download
+                        >📥 Download Brochure</a
+                    >
+                </div>
+            </section>
+
+            <!--Facilities-->
+            <section id="facilities">
+                <div class="section-content">
+                    <h2>Campus Facilities</h2>
+                    <div class="facility-grid">
+                        <div class="facility-icon-card">
+                            <div class="icon">📚</div>
+                            <h3>Library</h3>
+                            <p>
+                                Extensive academic and digital resources with
+                                quiet study spaces.
+                            </p>
+                        </div>
+
+                        <div class="facility-icon-card">
+                            <div class="icon">🧪</div>
+                            <h3>Labs</h3>
+                            <p>Well Equipped Modern Lab</p>
+                        </div>
+
+                        <div class="facility-icon-card">
+                            <div class="icon">🏠</div>
+                            <h3>Hostel</h3>
+                            <p>
+                                Comfortable and safe residential facilities for
+                                male and female students.
+                            </p>
+                        </div>
+
+                        <div class="facility-icon-card">
+                            <div class="icon">📶</div>
+                            <h3>Wifi Campus</h3>
+                            <p>
+                                Whole Campus is equipped with high speed
+                                internet
+                            </p>
+                        </div>
+
+                        <div class="facility-icon-card">
+                            <div class="icon">🚌</div>
+                            <h3>Transportation</h3>
+                            <p>
+                                Bus facilities covering nearby towns and
+                                villages.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Leadership Section -->
+            <section id="leadership">
+                <div class="section-content">
+                    <h2>Leadership</h2>
+                    <div class="faculty-grid">
+                        <div class="faculty-card">
+                            <img
+                                src="images/principal.jpg"
+                                alt="Mr. Samprity Chowdhury"
+                            />
+                            <h4>Mr. Samprity Chowdhury</h4>
+                            <p>Principal</p>
+                        </div>
+                        <div class="faculty-card">
+                            <img
+                                src="images/director.jpg"
+                                alt="Mr. S.S. Huda"
+                            />
+                            <h4>Mr. S.S. Huda</h4>
+                            <p>Director</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gallery Section -->
+            <section id="gallery">
+                <div class="section-content">
+                    <h2>Gallery</h2>
+                    <div class="gallery-card-grid">
+                        <div
+                            class="gallery-card"
+                            onclick="location.href='gallery.html?category=event'"
+                        >
+                            <img src="./public/event/event5.jpg" alt="Event" />
+                            <div class="gallery-card-title">Events</div>
+                        </div>
+
+                        <div
+                            class="gallery-card"
+                            onclick="location.href='gallery.html?category=lab'"
+                        >
+                            <img src="./public/lab/lab1.jpg" alt="Lab" />
+                            <div class="gallery-card-title">Labs</div>
+                        </div>
+
+                        <div
+                            class="gallery-card"
+                            onclick="location.href='gallery.html?category=campus'"
+                        >
+                            <img
+                                src="/public/campus/campus2.jpg"
+                                alt="Campus"
+                            />
+                            <div class="gallery-card-title">Campus</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="placements">
+                <div class="section-content">
+                    <h2>Our Students Are Placed At</h2>
+                    <div class="placement-slider">
+                        <div class="placement-track">
+                            <!-- Duplicate logos at end to create seamless loop -->
+                            <img
+                                src="./public/companies/honda_logo.jpg"
+                                alt="honda"
+                            />
+                            <img src="./public/companies/jbm.png" alt="jbm" />
+                            <img
+                                src="./public/companies/kia-motors.webp"
+                                alt="kia"
+                            />
+                            <img
+                                src="./public/companies/rg.png"
+                                alt="Rashmi Group"
+                            />
+                            <img
+                                src="./public/companies/Skipper_Limited_Logo.jpg"
+                                alt="Skipper Ltd"
+                            />
+                            <img
+                                src="./public/companies/tata-communications_unified-communications_1616482972944.webp"
+                                alt="tata"
+                            />
+                            <img
+                                src="./public/companies/mahindra.png"
+                                alt="mahindra"
+                            />
+                            <img
+                                src="./public/companies/lumnx.jpg"
+                                alt="lumnx."
+                            />
+                            <img
+                                src="./public/companies/sparrows.jpg"
+                                alt="sparrows"
+                            />
+                            <img
+                                src="./public/companies/jai hind.jpg"
+                                alt="Jai Hind Industries"
+                            />
+                            <img
+                                src="./public/companies/Bosch-Logo.png"
+                                alt="Bosch"
+                            />
+                            <img
+                                src="./public/companies/L12.jpg"
+                                alt="logo12"
+                            />
+                            <img src="./public/companies/L3.jpg" alt="logo3" />
+                            <img src="./public/companies/L5.jpg" alt="logo5" />
+                            <img src="./public/companies/L8.jpg" alt="logo8" />
+
+                            <!-- Optional duplicate set for seamless loop -->
+                            <img
+                                src="./public/companies/honda_logo.jpg"
+                                alt="honda"
+                            />
+                            <img src="./public/companies/jbm.png" alt="jbm" />
+                            <img
+                                src="./public/companies/kia-motors.webp"
+                                alt="kia"
+                            />
+                            <img
+                                src="./public/companies/rg.png"
+                                alt="Rashmi Group"
+                            />
+                            <!-- ... add as needed -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact">
+                <div class="section-content">
+                    <h2>Contact Us</h2>
+                    <p>
+                        📍 Amar, Kanfala (Beside NH-34), Near Palsanda,
+                        Berhmapore
+                    </p>
+                    <p>PS: Nabagram, Murshidabad, Pin - 742184(West Bengal)</p>
+                    <p>📧 bimtpoly@gmail.com</p>
+                    <p>📞 +91-8967158821 / 7864888061 / 6294515804(Office)</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1273210243176!2d88.11808529468964!3d24.208476209182038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa2b0b92e08d8f%3A0x8d1e16b9d9010742!2sBCARE%20Institute%20of%20Management%20%26%20Technology!5e0!3m2!1sen!2sin!4v1751032071465!5m2!1sen!2sin"
+                        width="100%"
+                        height="300"
+                    ></iframe>
+                </div>
+            </section>
+
+            <section id="faq">
+                <div class="section-content">
+                    <h2>Frequently Asked Questions</h2>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            What are the eligibility criteria for diploma
+                            admission?
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                10th standard pass is required for 1st year
+                                admission. For 2nd year lateral entry, HS
+                                Science or ITI is accepted.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is hostel facility available?
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, hostel facilities are available for both
+                                boys and girls.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            Is the diploma recognized by AICTE?
+                        </button>
+                        <div class="faq-answer">
+                            <p>
+                                Yes, our institution is affiliated and
+                                recognized by AICTE and the State Council.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <div include-html="./partials/footer.html"></div>
         </div>
-      </div>
-    </section>
-
-
-    <!-- Courses Section -->
-    <section id="courses">
-      <div class="section-content">
-        <h2>Our Courses</h2>
-        <p class="subtitle">Building a better world, one course at a time</p>
-        <div class="course-grid new-style">
-          <div class="course-card modern">
-            <div class="img-wrap">
-              <img src="./public/courses/Civil.jpg" alt="Civil Engineering">
-              <span class="course-label">Civil Engineering</span>
-            </div>
-            <div class="course-info">
-              <p><span class="icon">⏱</span> Duration: 3 Years</p>
-              <p class="desc">Design, construct, and maintain the physical and natural environment.</p>
-              <p class="intake">Intake: 60</p>
-            </div>
-          </div>
-
-          <div class="course-card modern">
-            <div class="img-wrap">
-              <img src="./public/courses/Mechanical.jpg" alt="Mechanical Engineering">
-              <span class="course-label">Mechanical Engineering</span>
-            </div>
-            <div class="course-info">
-              <p><span class="icon">⏱</span> Duration: 3 Years</p>
-              <p class="desc">Explore design, analysis, and manufacturing technologies.</p>
-              <p class="intake">Intake: 60</p>
-            </div>
-          </div>
-
-          <div class="course-card modern">
-            <div class="img-wrap">
-              <img src="./public/courses/Electrical.jpg" alt="Electrical Engineering">
-              <span class="course-label">Electrical Engineering</span>
-            </div>
-            <div class="course-info">
-              <p><span class="icon">⏱</span> Duration: 3 Years</p>
-              <p class="desc">Explore design, analysis, and manufacturing technologies.</p>
-              <p class="intake">Intake: 60</p>
-            </div>
-          </div>
-
-          <div class="course-card modern">
-            <div class="img-wrap">
-              <img src="./public/courses/Electronics.jpg" alt="Electronics and Telecommunication Engineering">
-              <span class="course-label">Electronics and Telecommunication Engineering</span>
-            </div>
-            <div class="course-info">
-              <p><span class="icon">⏱</span> Duration: 3 Years</p>
-              <p class="desc">Build software systems and smart solutions for the future.</p>
-              <p class="intake">Intake: 60</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Admissions Section -->
-    <section id="admissions">
-      <div class="section-content">
-        <h2>Admissions</h2>
-
-        <p>Below are the eligibility criteria for admission into our diploma programs:</p>
-
-        <ul class="eligibility-list">
-          <li>Passed 10th Standard (Madhyamik or equivalent) exam for Admission in 1st year.</li>
-          <li>Passed HS Science for Admission in 2nd year</li>
-          <li>Passed ITI for Admission in 2nd year</li>
-          <li><strong>Entrance Exam:</strong> Candidates must qualify the Vocational exam with 60% Marks for Admission
-            in
-            2nd year.
-          </li>
-        </ul>
-
-        <div class="fee-note">
-          🏷️ <strong>Fees:</strong> As per Council norms.
-        </div>
-        <a href="/public/Admission Form.pdf" class="btn" download>📥 Download Admission Form</a>
-        <a href="/public/brochure.pdf" class="btn" download>📥 Download Brochure</a>
-      </div>
-    </section>
-
-
-    <!--Facilities-->
-    <section id="facilities">
-      <div class="section-content">
-        <h2>Campus Facilities</h2>
-        <div class="facility-grid">
-          <div class="facility-icon-card">
-            <div class="icon">📚</div>
-            <h3>Library</h3>
-            <p>Extensive academic and digital resources with quiet study spaces.</p>
-          </div>
-
-          <div class="facility-icon-card">
-            <div class="icon">🧪</div>
-            <h3>Labs</h3>
-            <p>Well Equipped Modern Lab</p>
-          </div>
-
-          <div class="facility-icon-card">
-            <div class="icon">🏠</div>
-            <h3>Hostel</h3>
-            <p>Comfortable and safe residential facilities for male and female students.</p>
-          </div>
-
-          <div class="facility-icon-card">
-            <div class="icon">📶</div>
-            <h3>Wifi Campus</h3>
-            <p>Whole Campus is equipped with high speed internet</p>
-          </div>
-
-          <div class="facility-icon-card">
-            <div class="icon">🚌</div>
-            <h3>Transportation</h3>
-            <p>Bus facilities covering nearby towns and villages.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-
-    <!-- Leadership Section -->
-    <section id="leadership">
-      <div class="section-content">
-        <h2>Leadership</h2>
-        <div class="faculty-grid">
-          <div class="faculty-card">
-            <img src="images/principal.jpg" alt="Mr. Samprity Chowdhury">
-            <h4>Mr. Samprity Chowdhury</h4>
-            <p>Principal</p>
-          </div>
-          <div class="faculty-card">
-            <img src="images/director.jpg" alt="Mr. S.S. Huda">
-            <h4>Mr. S.S. Huda</h4>
-            <p>Director</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Gallery Section -->
-    <section id="gallery">
-      <div class="section-content">
-        <h2>Gallery</h2>
-        <div class="gallery-card-grid">
-
-          <div class="gallery-card" onclick="location.href='gallery.html?category=event'">
-            <img src="./public/event/event5.jpg" alt="Event">
-            <div class="gallery-card-title">Events</div>
-          </div>
-
-          <div class="gallery-card" onclick="location.href='gallery.html?category=lab'">
-            <img src="./public/lab/lab1.jpg" alt="Lab">
-            <div class="gallery-card-title">Labs</div>
-          </div>
-
-          <div class="gallery-card" onclick="location.href='gallery.html?category=campus'">
-            <img src="/public/campus/campus2.jpg" alt="Campus">
-            <div class="gallery-card-title">Campus</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="placements">
-      <div class="section-content">
-        <h2>Our Students Are Placed At</h2>
-        <div class="placement-slider">
-          <div class="placement-track">
-            <!-- Duplicate logos at end to create seamless loop -->
-            <img src="./public/companies/honda_logo.jpg" alt="honda">
-            <img src="./public/companies/jbm.png" alt="jbm">
-            <img src="./public/companies/kia-motors.webp" alt="kia">
-            <img src="./public/companies/rg.png" alt="Rashmi Group">
-            <img src="./public/companies/Skipper_Limited_Logo.jpg" alt="Skipper Ltd">
-            <img src="./public/companies/tata-communications_unified-communications_1616482972944.webp" alt="tata">
-            <img src="./public/companies/mahindra.png" alt="mahindra">
-            <img src="./public/companies/lumnx.jpg" alt="lumnx.">
-            <img src="./public/companies/sparrows.jpg" alt="sparrows">
-            <img src="./public/companies/jai hind.jpg" alt="Jai Hind Industries">
-            <img src="./public/companies/Bosch-Logo.png" alt="Bosch">
-            <img src="./public/companies/L12.jpg" alt="logo12">
-            <img src="./public/companies/L3.jpg" alt="logo3">
-            <img src="./public/companies/L5.jpg" alt="logo5">
-            <img src="./public/companies/L8.jpg" alt="logo8">
-
-            <!-- Optional duplicate set for seamless loop -->
-            <img src="./public/companies/honda_logo.jpg" alt="honda">
-            <img src="./public/companies/jbm.png" alt="jbm">
-            <img src="./public/companies/kia-motors.webp" alt="kia">
-            <img src="./public/companies/rg.png" alt="Rashmi Group">
-            <!-- ... add as needed -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="section-content">
-        <h2>Contact Us</h2>
-        <p>📍 Amar, Kanfala (Beside NH-34), Near Palsanda, Berhmapore</p>
-        <p>PS: Nabagram, Murshidabad, Pin - 742184(West Bengal)</p>
-        <p>📧 bimtpoly@gmail.com</p>
-        <p>📞 +91-8967158821 / 7864888061 / 6294515804(Office)</p>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.1273210243176!2d88.11808529468964!3d24.208476209182038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa2b0b92e08d8f%3A0x8d1e16b9d9010742!2sBCARE%20Institute%20of%20Management%20%26%20Technology!5e0!3m2!1sen!2sin!4v1751032071465!5m2!1sen!2sin"
-          width="100%" height="300"></iframe>
-      </div>
-    </section>
-
-    <section id="faq">
-      <div class="section-content">
-        <h2>Frequently Asked Questions</h2>
-        <div class="faq-item">
-          <button class="faq-question">What are the eligibility criteria for diploma admission?</button>
-          <div class="faq-answer">
-            <p>10th standard pass is required for 1st year admission. For 2nd year lateral entry, HS Science or ITI is
-              accepted.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Is hostel facility available?</button>
-          <div class="faq-answer">
-            <p>Yes, hostel facilities are available for both boys and girls.</p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Is the diploma recognized by AICTE?</button>
-          <div class="faq-answer">
-            <p>Yes, our institution is affiliated and recognized by AICTE and the State Council.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <div include-html="./partials/footer.html"></div>
-  </div>
-  <script src="./script.js"></script>
-</body>
-
+        <script src="./script.js"></script>
+    </body>
 </html>
