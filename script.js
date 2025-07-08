@@ -96,4 +96,52 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const years = ["2024-25", "2023-24", "2022-23"];
+    const tbody = document.getElementById("placement-data");
+
+    years.forEach((year) => {
+        fetch(`utils/placements/${year}.json`)
+            .then((res) => res.json())
+            .then((data) => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+            <td><strong>${data.year}</strong></td>
+            <td>${data.EE.attended}</td>
+            <td>${data.EE.selected}</td>
+            <td>${data.ME.attended}</td>
+            <td>${data.ME.selected}</td>
+            <td>${data.CE.attended}</td>
+            <td>${data.CE.selected}</td>
+            <td>${data.ETCE.attended}</td>
+            <td>${data.ETCE.selected}</td>
+          `;
+                tbody.appendChild(row);
+            })
+            .catch((err) => {
+                console.error(`Error loading ${year}.json`, err);
+            });
+    });
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("utils/committee/gb.json")
+        .then((res) => res.json())
+        .then((members) => {
+            const tbody = document.getElementById("gb-body");
+            members.forEach((member, index) => {
+                const row = document.createElement("tr");
+                row.innerHTML = `
+            <td>${index + 1}</td>
+            <td>${member.name}</td>
+            <td>${member.designation}</td>
+          `;
+                tbody.appendChild(row);
+            });
+        })
+        .catch((err) => {
+            console.error("Error loading governing body data:", err);
+        });
+});
+
 includeHTML();

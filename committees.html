@@ -1,42 +1,40 @@
 <!-- committee.html -->
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Committee Details</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="committee.js" defer></script>
+    </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Committee Details</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="committee.js" defer></script>
-</head>
+    <body>
+        <div include-html="./partials/header.html"></div>
 
-<body>
-  <div include-html="./partials/header.html"></div>
+        <section id="committee" class="committee-section">
+            <div class="section-content">
+                <h2 id="committee-title">Committee Details</h2>
+                <div class="table-wrapper">
+                    <table class="committee-table" id="committee-table">
+                        <thead>
+                            <tr>
+                                <th>Committee Type</th>
+                                <th>Order Ref No</th>
+                                <th>Appointment Date</th>
+                                <th>Member Name</th>
+                                <th>Designation</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Content added dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-  <section class="committee-section">
-    <div class="section-content">
-      <h2 id="committee-title">Committee Details</h2>
-      <div class="table-wrapper">
-        <table class="committee-table" id="committee-table">
-          <thead>
-            <tr>
-              <th>Committee Type</th>
-              <th>Order Ref No</th>
-              <th>Appointment Date</th>
-              <th>Member Name</th>
-              <th>Designation</th>
-            </tr>
-          </thead>
-          <tbody>
-            <!-- Content added dynamically -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-  </section>
-
-  <div include-html="./partials/footer.html"></div>
-  <script src="script.js"></script>
-</body>
-
+        <div include-html="./partials/footer.html"></div>
+        <script src="script.js"></script>
+    </body>
 </html>

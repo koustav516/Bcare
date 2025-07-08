@@ -757,7 +757,7 @@ main.section-content {
 /* 📱 Mobile-specific styles */
 @media (max-width: 768px) {
     .pdf-container iframe {
-        height: 750px;
+        height: 500px;
         /* Increase height for full view */
     }
 }
@@ -920,6 +920,70 @@ footer {
     overflow-x: auto;
     width: 100%;
 }
+
+.placement-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.placement-table th,
+.placement-table td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.placement-table th {
+    background-color: #004080;
+    color: white;
+    font-weight: bold;
+}
+
+.placement-table tr:nth-child(even) {
+    background-color: #f4f7fb;
+}
+
+main.section-content {
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .placement-table,
+    .placement-table thead,
+    .placement-table tbody,
+    .placement-table th,
+    .placement-table td,
+    .placement-table tr {
+        display: block;
+    }
+
+    .placement-table thead {
+        display: none;
+    }
+
+    .placement-table td {
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    .placement-table td::before {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: bold;
+        color: #004080;
+        content: attr(data-label);
+    }
+}
+
 
 /* Responsive table styles */
 @media (max-width: 768px) {

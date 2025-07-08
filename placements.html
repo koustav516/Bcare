@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Placements</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div include-html="./partials/header.html"></div>
+
+            <section class="section-content" id="placement-records">
+                <h2>Placement Records (Last 3 Years)</h2>
+                <div class="table-container">
+                    <table class="placement-table">
+                        <thead>
+                            <tr>
+                                <th rowspan="2">Year</th>
+                                <th colspan="2">EE</th>
+                                <th colspan="2">ME</th>
+                                <th colspan="2">CE</th>
+                                <th colspan="2">ETCE</th>
+                            </tr>
+                            <tr>
+                                <th>Attended</th>
+                                <th>Selected</th>
+                                <th>Attended</th>
+                                <th>Selected</th>
+                                <th>Attended</th>
+                                <th>Selected</th>
+                                <th>Attended</th>
+                                <th>Selected</th>
+                            </tr>
+                        </thead>
+                        <tbody id="placement-data">
+                            <!-- Rows injected by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <div include-html="./partials/footer.html"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
