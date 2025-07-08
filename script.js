@@ -61,4 +61,39 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const modals = [
+        {
+            open: "#openModalBtnAicte",
+            close: "#closeModalBtnAicte",
+            modal: "#pdfModalAicte",
+        },
+        {
+            open: "#openModalBtnState",
+            close: "#closeModalBtnState",
+            modal: "#pdfModalState",
+        },
+    ];
+
+    modals.forEach(({ open, close, modal }) => {
+        const openBtn = document.querySelector(open);
+        const closeBtn = document.querySelector(close);
+        const modalBox = document.querySelector(modal);
+
+        if (openBtn && closeBtn && modalBox) {
+            openBtn.addEventListener("click", () => {
+                modalBox.style.display = "block";
+            });
+            closeBtn.addEventListener("click", () => {
+                modalBox.style.display = "none";
+            });
+            window.addEventListener("click", (e) => {
+                if (e.target === modalBox) {
+                    modalBox.style.display = "none";
+                }
+            });
+        }
+    });
+});
+
 includeHTML();

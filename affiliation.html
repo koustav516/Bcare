@@ -42,12 +42,25 @@
                             ></iframe>
                         </div>
                         <div class="pdf-buttons">
-                            <a
-                                href="public/approval.pdf"
-                                target="_blank"
+                            <button
+                                id="openModalBtnAicte"
                                 class="btn fullscreen-btn"
-                                >🔍 View Fullscreen</a
                             >
+                                🔍 View Fullscreen
+                            </button>
+                        </div>
+                        <div id="pdfModalAicte" class="modal">
+                            <div class="modal-content">
+                                <span class="close-btn" id="closeModalBtnAicte"
+                                    >&times;</span
+                                >
+                                <embed
+                                    src="public/approval.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                                    type="application/pdf"
+                                    width="100%"
+                                    height="100%"
+                                />
+                            </div>
                         </div>
                     </div>
 
@@ -67,12 +80,25 @@
                             ></iframe>
                         </div>
                         <div class="pdf-buttons">
-                            <a
-                                href="public/state-council.pdf"
-                                target="_blank"
+                            <button
+                                id="openModalBtnState"
                                 class="btn fullscreen-btn"
-                                >🔍 View Fullscreen</a
                             >
+                                🔍 View Fullscreen
+                            </button>
+                        </div>
+                        <div id="pdfModalState" class="modal">
+                            <div class="modal-content">
+                                <span class="close-btn" id="closeModalBtnState"
+                                    >&times;</span
+                                >
+                                <embed
+                                    src="public/state-council.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                                    type="application/pdf"
+                                    width="100%"
+                                    height="100%"
+                                />
+                            </div>
                         </div>
                     </div>
                 </div>
