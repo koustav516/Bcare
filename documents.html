@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Important Documents - My Diploma College</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div include-html="./partials/header.html"></div>
+
+            <main id="documents" class="section-content">
+                <h2>Important Documents</h2>
+                <p>
+                    Please find below some of our official documents for quick
+                    reference.
+                </p>
+
+                <div class="documents-grid">
+                    <!-- Document 1 -->
+                    <div class="document-card">
+                        <h4>Building Insurance</h4>
+                        <iframe
+                            src="public/building_insurance.pdf"
+                            type="application/pdf"
+                            frameborder="0"
+                        ></iframe>
+                    </div>
+
+                    <!-- Document 2 -->
+                    <div class="document-card">
+                        <h4>Society Registration</h4>
+                        <iframe
+                            src="public/society_reg.pdf"
+                            type="application/pdf"
+                            frameborder="0"
+                        ></iframe>
+                    </div>
+
+                    <div class="document-card">
+                        <h4>Fire Certificate</h4>
+                        <iframe
+                            src="public/fire_certificate.pdf"
+                            type="application/pdf"
+                            frameborder="0"
+                        ></iframe>
+                    </div>
+                </div>
+            </main>
+
+            <div include-html="./partials/footer.html"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

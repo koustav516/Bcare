@@ -144,4 +144,35 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 });
 
+document.addEventListener("DOMContentLoaded", () => {
+    const container = document.getElementById("message-container");
+    const urlParams = new URLSearchParams(window.location.search);
+    const type = urlParams.get("type") || "director"; // default to director
+
+    fetch("/utils/message.json")
+        .then((res) => res.json())
+        .then((data) => {
+            const person = data[type];
+            if (!person) {
+                container.innerHTML = "<p>Invalid message type selected.</p>";
+                return;
+            }
+
+            const section = document.createElement("section");
+            section.className = "message-section";
+            section.innerHTML = `
+          <div class="message-box">
+            <img src="${person.photo}" alt="${person.name}" class="message-photo" />
+            <div class="message-text">
+              <h2>${person.designation}'s Message</h2>
+              <p class="person-name"><strong>${person.name}</strong></p>
+              <p class="designation">${person.qualification}</p>
+              <p class="message-block">${person.message}</p>
+            </div>
+          </div>
+        `;
+            container.appendChild(section);
+        });
+});
+
 includeHTML();

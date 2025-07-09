@@ -1,0 +1,16 @@
+{
+    "director": {
+        "name": "Prof. Shaikh Samsul Huda",
+        "designation": "Director",
+        "qualification": "M.Tech (Design and Production Engineering), Gold Medalist",
+        "photo": "public/faculty/ss_huda.jpg",
+        "message": "BCARE Institute of Management & Technology was established in a rural area of Murshidabad, West Bengal with the vision to provide technical education especially to students from Adibasi and minority communities, as envisioned by the BARSEED society. Though founded in 2005, the institution received AICTE approval and WBSCTVESD affiliation in 2011. We offer diploma courses in Civil, Electrical, Electronics & Telecommunication, and Mechanical Engineering. I sincerely invite students, with their guardians' consent, to join our institution and build a future as successful technocrats with promising career opportunities across India."
+    },
+    "principal": {
+        "name": "Samprity Chowdhury",
+        "designation": "Principal In Charge",
+        "qualification": "M.Tech (Power System and Devices)",
+        "photo": "public/faculty/principal.jpg",
+        "message": "On behalf of our dedicated faculty and students, I warmly welcome prospective students and their guardians to BCARE Institute of Management & Technology. Our mission is to develop the careers of young technocrats through quality education and skill-building. We believe in the philosophy of Swami Vivekananda's man-making education. Our highly qualified teaching team is committed to helping students set and achieve high goals. We also provide access to various financial assistance schemes like SC/ST Scholarships, OBC Scholarships, Aikyashree, Swami Vivekananda Scholarships, and more. We encourage early enrollment to unlock a bright and technically sound future."
+    }
+}
