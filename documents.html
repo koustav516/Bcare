@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Important Documents - My Diploma College</title>
+        <title>BCARE Institute Of Management & Technology</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" href="./public/campus/LOGO.jpg" />
     </head>
     <body>
         <div class="page-wrapper">
@@ -18,33 +19,58 @@
                 </p>
 
                 <div class="documents-grid">
-                    <!-- Document 1 -->
-                    <div class="document-card">
+                    <div
+                        class="document-card"
+                        data-pdf="public/building_insurance.pdf"
+                    >
                         <h4>Building Insurance</h4>
-                        <iframe
-                            src="public/building_insurance.pdf"
-                            type="application/pdf"
-                            frameborder="0"
-                        ></iframe>
+                        <div class="overlay-wrapper">
+                            <embed
+                                src="public/building_insurance.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+                                type="application/pdf"
+                                class="doc-preview"
+                            />
+                            <div class="click-overlay"></div>
+                        </div>
                     </div>
 
                     <!-- Document 2 -->
-                    <div class="document-card">
+                    <div
+                        class="document-card"
+                        data-pdf="public/society_reg.pdf"
+                    >
                         <h4>Society Registration</h4>
-                        <iframe
-                            src="public/society_reg.pdf"
-                            type="application/pdf"
-                            frameborder="0"
-                        ></iframe>
+                        <div class="overlay-wrapper">
+                            <embed
+                                src="public/society_reg.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+                                type="application/pdf"
+                                class="doc-preview"
+                            />
+                            <div class="click-overlay"></div>
+                        </div>
                     </div>
 
-                    <div class="document-card">
+                    <!-- Document 3 -->
+                    <div
+                        class="document-card"
+                        data-pdf="public/fire_certificate.pdf"
+                    >
                         <h4>Fire Certificate</h4>
-                        <iframe
-                            src="public/fire_certificate.pdf"
-                            type="application/pdf"
-                            frameborder="0"
-                        ></iframe>
+                        <div class="overlay-wrapper">
+                            <embed
+                                src="public/fire_certificate.pdf#page=1&toolbar=0&navpanes=0&scrollbar=0"
+                                type="application/pdf"
+                                class="doc-preview"
+                            />
+                            <div class="click-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <!-- PDF Modal -->
+                <div id="pdfModal" class="pdf-modal">
+                    <div class="pdf-modal-content">
+                        <span class="close-btn">&times;</span>
+                        <embed id="pdfEmbed" src="" type="application/pdf" />
                     </div>
                 </div>
             </main>

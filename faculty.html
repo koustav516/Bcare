@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faculty</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="./faculty.js" defer></script>
-</head>
-<body>
-  <div class="page-container">
-    <div include-html="./partials/header.html"></div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BCARE Institute Of Management & Technology</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/png" href="./public/campus/LOGO.jpg" />
+        <script src="./faculty.js" defer></script>
+    </head>
+    <body>
+        <div class="page-container">
+            <div include-html="./partials/header.html"></div>
 
-    <section id="faculty-section">
-      <div class="section-content">
-        <h2 id="faculty-title">Faculty</h2>
-        <div id="faculty-container">
-          <p>Loading faculty details...</p>
+            <section id="faculty-section">
+                <div class="section-content">
+                    <h2 id="faculty-title">Faculty</h2>
+                    <div class="table-wrapper" id="faculty-container">
+                        <p>Loading faculty details...</p>
+                    </div>
+                </div>
+            </section>
+
+            <div include-html="./partials/footer.html"></div>
         </div>
-      </div>
-    </section>
-
-    <div include-html="./partials/footer.html"></div>
-  </div>
-  <script src="./script.js"></script>
-</body>
+        <script src="./script.js"></script>
+    </body>
 </html>

@@ -1,0 +1,170 @@
+[
+    {
+        "name": "PROF. SK SAMSUL HUDA",
+        "designation": "DIRECTOR",
+        "department": "MECHANICAL",
+        "date_of_joining": "29-09-2011",
+        "monthly_salary": 30000
+    },
+    {
+        "name": "SAMPRITY CHOWDHURY",
+        "designation": "PRINCIPAL IN CHARGE",
+        "department": "ELECTRICAL ENGINEERING",
+        "date_of_joining": "15-02-2017",
+        "monthly_salary": 12000
+    },
+    {
+        "name": "ABHIK SARKAR",
+        "designation": "LECTURER",
+        "department": "CIVIL ENGINEERING",
+        "date_of_joining": "11-03-2020",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "BIPROJIT DEY",
+        "designation": "LECTURER",
+        "department": "CIVIL ENGINEERING",
+        "date_of_joining": "14-11-2021",
+        "monthly_salary": 9000
+    },
+    {
+        "name": "SUROJIT SARKAR",
+        "designation": "LECTURER",
+        "department": "ELECTRICAL ENGINEERING",
+        "date_of_joining": "01-07-2023",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "DINONATH MISHRA",
+        "designation": "LECTURER",
+        "department": "HUMANITIES",
+        "date_of_joining": "01-04-2021",
+        "monthly_salary": 8000
+    },
+    {
+        "name": "ARGO DAS",
+        "designation": "LECTURER",
+        "department": "ELECTRICAL ENGINEERING",
+        "date_of_joining": "01-03-2024",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "SUMIT NATH",
+        "designation": "HOD",
+        "department": "ELECTRONICS & TELECOMMUNICATION ENGINEERING",
+        "date_of_joining": "01-09-2022",
+        "monthly_salary": 9000
+    },
+    {
+        "name": "KOUSHIK MANDAL",
+        "designation": "LECTURER",
+        "department": "CHEMISTRY",
+        "date_of_joining": "01-06-2023",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "PRABIR MONDAL",
+        "designation": "LECTURER",
+        "department": "MATHEMATICS",
+        "date_of_joining": "22-03-2022",
+        "monthly_salary": 11500
+    },
+    {
+        "name": "MONTI DAS",
+        "designation": "LECTURER",
+        "department": "MECHANICAL ENGINEERING",
+        "date_of_joining": "24-08-2016",
+        "monthly_salary": 12000
+    },
+    {
+        "name": "PRONAY CHATTARAJ",
+        "designation": "HOD",
+        "department": "MECHANICAL ENGINEERING",
+        "date_of_joining": "11-03-2019",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "KAZI IMRAN AHAMED",
+        "designation": "LECTURER",
+        "department": "MECHANICAL ENGINEERING",
+        "date_of_joining": "02-06-2022",
+        "monthly_salary": 22000
+    },
+    {
+        "name": "SARFARAZ NAWAZ HOSSAIN",
+        "designation": "LECTURER",
+        "department": "MECHANICAL ENGINEERING",
+        "date_of_joining": "01-09-2011",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "ANNIKA SARKAR",
+        "designation": "LECTURER",
+        "department": "PHYSICS",
+        "date_of_joining": "01-09-2023",
+        "monthly_salary": 9000
+    },
+    {
+        "name": "SOUMINI CHAKRABORTY",
+        "designation": "LECTURER",
+        "department": "ENGLISH",
+        "date_of_joining": "01-09-2024",
+        "monthly_salary": 8000
+    },
+    {
+        "name": "ASHWATHA GHOSHAL",
+        "designation": "LECTURER",
+        "department": "ELECTRICAL ENGINEERING",
+        "date_of_joining": "03-03-2020",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "SAYAN SAMAJDAR",
+        "designation": "LECTURER",
+        "department": "ELECTRICAL ENGINEERING",
+        "date_of_joining": "20-02-2022",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "RAHUL GHOSH",
+        "designation": "LECTURER",
+        "department": "CIVIL ENGINEERING",
+        "date_of_joining": "01-09-2023",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "RAKHI SAHA",
+        "designation": "HOD",
+        "department": "CIVIL ENGINEERING",
+        "date_of_joining": "05-06-2023",
+        "monthly_salary": 11000
+    },
+    {
+        "name": "MOUSHILI BISWAS",
+        "designation": "LECTURER",
+        "department": "COMPUTER SCIENCE & ENGINEERING",
+        "date_of_joining": "01-02-2025",
+        "monthly_salary": 7000
+    },
+    {
+        "name": "ANUP KUMAR MANDAL",
+        "designation": "LECTURER",
+        "department": "MECHANICAL ENGINEERING",
+        "date_of_joining": "18-02-2014",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "SUJIT MONDAL",
+        "designation": "LECTURER",
+        "department": "ELECTRONICS & TELECOMMUNICATION ENGINEERING",
+        "date_of_joining": "01-02-2012",
+        "monthly_salary": 10000
+    },
+    {
+        "name": "VIBEKANANDA PAUL",
+        "designation": "LECTURER",
+        "department": "ELECTRONICS & TELECOMMUNICATION",
+        "date_of_joining": "24-03-2016",
+        "monthly_salary": 10000
+    }
+]

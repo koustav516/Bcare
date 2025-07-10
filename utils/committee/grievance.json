@@ -1,58 +1,58 @@
 [
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Prof S.S.Huda",
-   "designation": "DIRECTOR"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Mr. Barun Kanti Majumder",
-   "designation": "VICE CHAIRMAN"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Samprity Chowdhury",
-   "designation": "PRINCIPAL"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Kazi Imran Ahmed",
-   "designation": "HOD, ME"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Sumit Nath",
-   "designation": "LECTURER"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Rakhi Saha",
-   "designation": "HOD, CE"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Pranoy Chattoraj",
-   "designation": "LECTURER"
- },
- {
-   "committee_type": "Grievance Redressal",
-   "order_reference": "BIMT/035(O)/24-25",
-   "appointment_date": "10.07.2024",
-   "member_name": "Prabir Mandal",
-   "designation": "LECTURER"
- }
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Prof S.S.Huda",
+        "designation": "DIRECTOR"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Mr. Barun Kanti Majumder",
+        "designation": "VICE CHAIRMAN"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Samprity Chowdhury",
+        "designation": "PRINCIPAL"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Kazi Imran Ahmed",
+        "designation": "LECTURER"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Sumit Nath",
+        "designation": "HOD, ETCE"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Rakhi Saha",
+        "designation": "HOD, CE"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Pranoy Chattoraj",
+        "designation": "HOD, ME"
+    },
+    {
+        "committee_type": "Grievance Redressal",
+        "order_reference": "BIMT/035(O)/24-25",
+        "appointment_date": "10.07.2024",
+        "member_name": "Prabir Mandal",
+        "designation": "LECTURER"
+    }
 ]
