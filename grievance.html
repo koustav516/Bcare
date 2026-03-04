@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Online Grievance Redressal</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="page-wrapper">
+            <div include-html="./partials/header.html"></div>
+
+            <main class="section-content">
+                <h2>Online Grievance Redressal Mechanism</h2>
+
+                <p class="subtitle">
+                    Students may submit grievances related to academics,
+                    facilities, administration, or any other issue. All
+                    submissions are reviewed by the Grievance Redressal
+                    Committee of the institution.
+                </p>
+
+                <div class="grievance-container">
+                    <!-- Submit Grievance -->
+                    <div class="grievance-card">
+                        <h3>📝 Submit Grievance</h3>
+
+                        <form
+                            id="grievanceForm"
+                            action="https://formspree.io/f/mgolgydb"
+                            method="POST"
+                        >
+                            <input
+                                type="text"
+                                name="name"
+                                placeholder="Student Name"
+                                required
+                            />
+
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Email Address"
+                                required
+                            />
+
+                            <input
+                                type="tel"
+                                name="phone"
+                                placeholder="Phone Number"
+                                required
+                            />
+
+                            <select name="department" required>
+                                <option value="">Select Department</option>
+                                <option>Civil Engineering</option>
+                                <option>Mechanical Engineering</option>
+                                <option>Electrical Engineering</option>
+                                <option>
+                                    Electronics & Telecommunication Engineering
+                                </option>
+                            </select>
+
+                            <input
+                                type="text"
+                                name="subject"
+                                placeholder="Subject of Grievance"
+                                required
+                            />
+
+                            <textarea
+                                name="message"
+                                rows="5"
+                                placeholder="Describe your grievance..."
+                                required
+                            ></textarea>
+
+                            <button type="submit">Submit Grievance</button>
+
+                            <p
+                                id="formSuccess"
+                                style="
+                                    display: none;
+                                    color: green;
+                                    margin-top: 10px;
+                                "
+                            >
+                                Your grievance has been submitted successfully.
+                                Our committee will review it soon.
+                            </p>
+
+                            <p
+                                id="formError"
+                                style="
+                                    display: none;
+                                    color: red;
+                                    margin-top: 10px;
+                                "
+                            >
+                                ⚠️ Something went wrong. Please try again.
+                            </p>
+                        </form>
+                    </div>
+
+                    <!-- Track Status -->
+                    <div class="grievance-card">
+                        <h3>🔍 Track Grievance Status</h3>
+
+                        <p>
+                            After submitting your grievance, you may contact the
+                            administration office or Grievance Committee using
+                            your registered email to know the status.
+                        </p>
+
+                        <p>
+                            For urgent concerns, please contact the college
+                            office during working hours at
+                            <b>bimtpoly@gmail.com</b>
+                        </p>
+
+                        <a href="mailto:bimtpoly@gmail.com" class="btn"
+                            >Contact Administration</a
+                        >
+                    </div>
+
+                    <!-- Committee -->
+                    <div class="grievance-card">
+                        <h3>👥 Grievance Committee</h3>
+
+                        <p>
+                            The Grievance Redressal Committee ensures fair and
+                            timely resolution of student concerns related to
+                            academic or administrative matters.
+                        </p>
+
+                        <p>
+                            Students may approach the committee if they feel
+                            their grievance has not been resolved through normal
+                            channels.
+                        </p>
+
+                        <a
+                            href="committees.html?file=grievance.json#committee"
+                            class="btn"
+                        >
+                            View Committee Members
+                        </a>
+                    </div>
+                </div>
+            </main>
+
+            <div include-html="./partials/footer.html"></div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

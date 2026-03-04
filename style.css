@@ -1221,6 +1221,64 @@ footer {
     color: red;
 }
 
+.grievance-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.grievance-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.grievance-card h3 {
+    color: #004080;
+    margin-bottom: 15px;
+}
+
+.grievance-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.grievance-card input,
+.grievance-card textarea,
+.grievance-card select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.grievance-card button {
+    background: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.grievance-card button:hover {
+    background: #003060;
+}
+
+#formSuccess {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#formError {
+    font-weight: 600;
+    font-size: 15px;
+}
+
 /* Responsive for small screens */
 @media (max-width: 768px) {
     .documents-grid {

@@ -202,3 +202,41 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.getElementById("grievanceForm");
+
+    if (!form) return;
+
+    const successMsg = document.getElementById("formSuccess");
+    const errorMsg = document.getElementById("formError");
+
+    form.addEventListener("submit", async function (event) {
+        event.preventDefault();
+
+        const data = new FormData(form);
+
+        try {
+            const response = await fetch(form.action, {
+                method: form.method,
+                body: data,
+                headers: {
+                    Accept: "application/json",
+                },
+            });
+
+            if (response.ok) {
+                successMsg.style.display = "block";
+                errorMsg.style.display = "none";
+
+                form.reset();
+            } else {
+                successMsg.style.display = "none";
+                errorMsg.style.display = "block";
+            }
+        } catch (error) {
+            successMsg.style.display = "none";
+            errorMsg.style.display = "block";
+        }
+    });
+});
